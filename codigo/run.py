@@ -25,8 +25,14 @@ def obtenerMensaje(cuentas_creadas):
 
 
 def crearFacebook():
+
     """
-        Explicación de método
+        Explication de método
+        En este caso se comienza colocando todos los datos del internauta
+        para la creacion de su cuenta, como se aprecia son de tipo String
+        pero la Edad no lo es ya que esta es de tipo entero, a fin de cuentas
+        se puede observar que el  internauta ingresa todos los datos y hace un
+        retorno a la funcion principal para luego imprimirlo
     """
     print("Ingresar los siguientes datos por favor: ")
     nickname = input("Coloque nombre de Usuario: ")
