@@ -32,7 +32,8 @@ def crearFacebook():
         para la creacion de su cuenta, como se aprecia son de tipo String
         pero la Edad no lo es ya que esta es de tipo entero, a fin de cuentas
         se puede observar que el  internauta ingresa todos los datos y hace un
-        retorno a la funcion principal para luego imprimirlo
+        retorno a la funcion principal para luego imprimirlo, esta pedira nombre del usuario,
+        edad, ciudad, pais, correo electrónico.
     """
     print("Ingresar los siguientes datos por favor: ")
     nickname = input("Coloque nombre de Usuario: ")
@@ -50,6 +51,8 @@ def crearFacebook():
 def crearTwitter():
     """
         Explicación de método
+        En este caso no va a devolver ningun valor como se ve en su principal característica, esto pedira lo siguiente
+        nombre del usuario, nombres, apellidos, edad, ciudad, pais, idioma, correo electrónico.
     """
     print("Ingresar los siguientes datos por favor: ")
     nombre_usuario = input("Nombre de usuario: ")
@@ -70,6 +73,8 @@ def crearTwitter():
 def crearWhatsapp():
     """
         Explicación de método
+        Esta es una funcion porque va a retornar un valor y a su vez pedira lo siguiente: nombre del usuario,
+        número de teléfono, edad, ciudad, pais.
     """
     print("Ingresar los siguientes datos por favor: ")
     nombre = input("Nombre de Usuario: ")
@@ -86,6 +91,8 @@ def crearWhatsapp():
 def crearTelegram():
     """
         Explicación de método
+        Pues en este caso este proceso va acumular todos los datos en una cadena acumuladora y esta no va a devolver un
+        valor, tambien pedira lo siguiente:nombre del usuario, número de teléfono,ciudad, pais, área de interés.
     """
     print("Ingresar los siguientes datos por favor: ")
     nombre_usuario = input("Nombre de usuario: ")
@@ -103,6 +110,8 @@ def crearTelegram():
 def crearSignal():
     """
         Explicación de método
+        En este caso  este metodo no  se considera una funcion ya que esta nos va a retornar un valor o un dato que se quiera retornar
+        esta pedira lo siguiente nombre del usuario, número de teléfono, ciudad, pais, hobby principal
     """
     print("Ingresar los siguientes datos por favor: ")
     nombre = input("Nombre de Usuario: ")
@@ -119,6 +128,9 @@ def crearSignal():
 def crearInstagram():
     """
        Explicación de método
+       En este caso no va a devolver un valor
+        como lo indica su principal característica pues esta lo que hara es pedir que el usuario ingrese  su nombre,
+        ciudad, edad, correo electrónico.
     """
     print("Ingresar los siguientes datos por favor: ")
     nombre_user = input("Nombre de usuario: ")
@@ -134,6 +146,8 @@ def crearInstagram():
 def crearFlickr():
     """
         Explicación de método
+        En este caso retorna a un valor como lo indica su principal característica y tambien se pide por teclado
+        nombre de usuario y correo electrónico.
     """
     print("Ingresar los siguientes datos por favor: ")
 
